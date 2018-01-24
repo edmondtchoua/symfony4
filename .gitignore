@@ -39,3 +39,18 @@
 
 # Backup entities generated with doctrine:generate:entities command
 **/Entity/*~
+
+# Cache, session files and logs (Symfony4)
+
+###> symfony/framework-bundle ###
+/.idea/
+
+.env
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/web-server-bundle ###
+.web-server-pid
+###< symfony/web-server-bundle ###
